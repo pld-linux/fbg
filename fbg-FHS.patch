@@ -1,0 +1,17 @@
+diff -Nru fbg-0.9.orig/configure.in fbg-0.9/configure.in
+--- fbg-0.9.orig/configure.in	Fri Dec 27 05:42:44 2002
++++ fbg-0.9/configure.in	Wed Apr  9 13:02:33 2003
+@@ -125,11 +125,11 @@
+ test "$prefix" = "NONE" && prefix=/usr/local
+ test "$exec_prefix" = "NONE" && exec_prefix=$prefix
+ 
+-eval FBGDATADIR="$prefix/games/$PACKAGE"
++eval FBGDATADIR="$prefix/share/$PACKAGE"
+ AC_DEFINE_UNQUOTED(FBGDATADIR, "$FBGDATADIR")
+ 
+ dnl Put data in $(prefix)/games/
+-AC_SUBST(datadir, "\$(prefix)/games")
++AC_SUBST(datadir, "\$(prefix)/share")
+ 
+ dnl Output Makefiles
+ AC_OUTPUT(Makefile)

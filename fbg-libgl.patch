@@ -1,0 +1,12 @@
+diff -Nru fbg-0.9.orig/configure.in fbg-0.9/configure.in
+--- fbg-0.9.orig/configure.in	Fri Dec 27 05:42:44 2002
++++ fbg-0.9/configure.in	Wed Apr  9 12:58:34 2003
+@@ -46,6 +46,8 @@
+ esac
+ AC_SUBST(MATHLIB)
+ 
++CXXFLAGS="$CFLAGS -I/usr/X11R6/include"
++
+ dnl Check for SDL
+ SDL_VERSION=1.2.0
+ AM_PATH_SDL($SDL_VERSION, :,
