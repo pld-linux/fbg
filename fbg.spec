@@ -6,6 +6,7 @@ Release:	1
 License:	GPLv2
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/fbg/%{name}-%{version}.tar.gz
+# Source0-md5:	82db64d84b6172f5676fcff69d533881
 Patch0:		%{name}-libgl.patch
 Patch1:		%{name}-FHS.patch
 URL:		http://derajdezine.vze.com/
