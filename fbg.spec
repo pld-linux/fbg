@@ -1,5 +1,5 @@
 Summary:	Falling Blocks Game
-Summary(pl.UTF-8):   Falling Blocks Game - gra w spadające klocki
+Summary(pl.UTF-8):	Falling Blocks Game - gra w spadające klocki
 Name:		fbg
 Version:	0.9
 Release:	1
