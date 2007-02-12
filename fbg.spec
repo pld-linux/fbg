@@ -1,5 +1,5 @@
 Summary:	Falling Blocks Game
-Summary(pl):	Falling Blocks Game - gra w spadaj±ce klocki
+Summary(pl.UTF-8):   Falling Blocks Game - gra w spadajÄ…ce klocki
 Name:		fbg
 Version:	0.9
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Falling Blocks Game.
 
-%description -l pl
-Falling Blocks Game - gra w spadaj±ce klocki.
+%description -l pl.UTF-8
+Falling Blocks Game - gra w spadajÄ…ce klocki.
 
 %prep
 %setup -q
